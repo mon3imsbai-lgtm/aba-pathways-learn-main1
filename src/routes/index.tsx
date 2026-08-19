@@ -23,6 +23,7 @@ import materialsImg from "../assets/materials.jpg";
 import trainingImg from "../assets/training.jpg";
 import { Section, SectionHeader } from "../components/section";
 import { getFeatures, getCourses, getTestimonials, getFaqItems, getProducts } from "@/lib/db/queries";
+import { getServices } from "@/lib/db/queries";
 
 export const Route = createFileRoute("/")({
   head: () => ({
