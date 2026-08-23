@@ -5,15 +5,12 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
 
 export default defineConfig({
-  envPrefix: ['VITE_', 'SUPABASE_'],  // ← أضف هذا السطر
+  envPrefix: ['VITE_', 'SUPABASE_'],
   plugins: [
-    tanstackRouter({ target: 'react', autoCodeSplitting: true }),
-    react(),
-    tailwindcss(),
-    tsconfigPaths(),
-  ],
-  build: { outDir: 'dist' },
-})
+    tanstackRouter({
+      target: 'react',
+      autoCodeSplitting: true,
+    }),
     react(),
     tailwindcss(),
     tsconfigPaths(),
@@ -22,4 +19,3 @@ export default defineConfig({
     outDir: 'dist',
   },
 })
-
