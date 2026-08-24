@@ -175,14 +175,11 @@ export async function submitContactMessage(input: {
   email: string
   request_type: string
   message: string
-}): Promise<ContactMessage> {
-  const { data, error } = await supabase
+}): Promise<void> {
+  const { error } = await supabase
     .from("contact_messages")
     .insert(input)
-    .select()
-    .single()
   if (error) throw error
-  return data
 }
 
 export async function submitRefundRequest(input: {
@@ -193,14 +190,11 @@ export async function submitRefundRequest(input: {
   account_holder: string
   bank_name: string
   reason?: string
-}): Promise<RefundRequest> {
-  const { data, error } = await supabase
+}): Promise<void> {
+  const { error } = await supabase
     .from("refund_requests")
     .insert(input)
-    .select()
-    .single()
   if (error) throw error
-  return data
 }
 
 // ==================== ORDERS ====================
