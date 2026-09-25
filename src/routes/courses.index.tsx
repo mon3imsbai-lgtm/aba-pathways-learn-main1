@@ -71,7 +71,7 @@ function CoursesPage() {
             </h1>
             <p className="mt-5 text-lg text-muted-foreground leading-8 max-w-2xl">
               نعلن مبدئياً عن مسارات ABAT ثم QASP-S وQBA وAblls-r وVB-MAPP وPECS
-              وبرامج التدخل المبكر وإدارة السلوك ومهارات التواصل، تحت إشراف
+              وبرامج التدخل المبكر وإدارة السلوك ومهارات التواصل، من تأطير
               الخبيرة كوثر سامي.
             </p>
           </div>

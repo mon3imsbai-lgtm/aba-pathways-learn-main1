@@ -39,7 +39,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link to="/pricing" className="hover:text-primary">
-                السعر والتسجيل
+                التسجيل
               </Link>
             </li>
             <li>

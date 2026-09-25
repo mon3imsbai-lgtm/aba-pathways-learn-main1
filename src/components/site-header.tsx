@@ -9,7 +9,7 @@ const nav = [
   { to: "/about", label: "من نحن" },
   { to: "/services", label: "الخدمات والاستشارات" },
   { to: "/courses", label: "الدورات" },
-  { to: "/pricing", label: "السعر والتسجيل" },
+  { to: "/pricing", label: "التسجيل" },
   { to: "/resources", label: "الموارد الرقمية" },
   { to: "/shop", label: "المتجر" },
   { to: "/blog", label: "المدونة" },

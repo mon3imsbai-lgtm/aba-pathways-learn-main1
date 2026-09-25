@@ -233,7 +233,7 @@ function Supervision() {
             إشراف علمي
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl font-extrabold leading-tight">
-            كل برامج AbaTools تحت إشراف الخبيرة كوثر سامي
+            كل برامج AbaTools من تأطير الخبيرة كوثر سامي
           </h2>
           <p className="mt-4 text-muted-foreground leading-8">
             محللة سلوك معتمدة QBA وأخصائية نفسية تربوية، تُشرف على بناء محتوى المنصة ومساراتها
